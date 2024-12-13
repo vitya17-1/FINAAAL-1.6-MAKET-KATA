@@ -190,12 +190,62 @@ body {
     flex: 1;
     justify-content: flex-end;
   }
-}
+  .service-main__nav {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
 
+  .service-main__nav::after {
+    content: '';
+    display: block;
+    position: fixed;
+    height: 81px;
+    width: 24px;
+    left: 0px;
+    z-index: 2;
+    background: linear-gradient(
+      270deg,
+      #f8f8f8 16.84%,
+      rgba(248, 248, 248, 0.0001) 100%
+    );
+    transform: rotate(180deg);
+  }
+  .service-main__nav::before {
+    content: '';
+    display: block;
+    position: fixed;
+    height: 81px;
+    width: 24px;
+    right: -17px;
+    z-index: 2;
+    background: linear-gradient(
+      270deg,
+      #f8f8f8 16.84%,
+      rgba(248, 248, 248, 0.0001) 100%
+    );
+    transform: rotate(180deg);
+  }
+}
 /*TABLET Ver*/
 @media (min-width: 768px) and (max-width: 1120px) {
   .tablet-hidden {
     display: none;
+  }
+  .mobile-hidden {
+    position: relative;
+    top: 25%;
+  }
+  .mobile-hidden::after {
+    content: '';
+    background: #eaeaea;
+    width: 2px;
+    height: 32px;
+    position: absolute;
+    right: -5px;
+    top: 5px;
   }
 }
 @media (min-width: 768px) {
@@ -242,19 +292,56 @@ body {
     top: 30px;
     right: 120px;
   }
-  .service-header__right::before {
-    content: '';
-    background: #eaeaea;
-    width: 2px;
-    height: 32px;
-    position: relative;
-    left: 156px;
-    top: 30px;
-  }
+  // .service-header__right::before {
+  //   content: '';
+  //   background: #eaeaea;
+  //   width: 2px;
+  //   height: 32px;
+  //   position: relative;
+  //   left: 156px;
+  //   top: 30px;
+  // }
 
   .service-header__right {
     flex: 1;
     justify-content: flex-end;
+  }
+  .service-main__nav {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .service-main__nav::after {
+    content: '';
+    display: block;
+    position: fixed;
+    height: 81px;
+    width: 24px;
+    left: 0px;
+    z-index: 2;
+    background: linear-gradient(
+      270deg,
+      #f8f8f8 16.84%,
+      rgba(248, 248, 248, 0.0001) 100%
+    );
+    transform: rotate(180deg);
+  }
+  .service-main__nav::before {
+    content: '';
+    display: block;
+    position: fixed;
+    height: 81px;
+    width: 24px;
+    right: -17px;
+    z-index: 2;
+    background: linear-gradient(
+      270deg,
+      #f8f8f8 16.84%,
+      rgba(248, 248, 248, 0.0001) 100%
+    );
+    transform: rotate(180deg);
   }
 }
 

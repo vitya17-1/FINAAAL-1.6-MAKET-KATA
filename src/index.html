@@ -54,9 +54,11 @@
         <button class="service-header__button logo"><img src="/src/img/CPS.svg" alt="CPS"></button>
         </div>
         <div class="service-header__right">
-        <button class="service-header__button mobile-hidden" id="call"><img src="./img/call.svg" alt="call"></button>
-        <button class="service-header__button mobile-hidden" id="send"><img src="./img/chat.svg" alt="chat"></button>
-        <button class="service-header__button mobile-hidden"><img src="./img/profile.svg" alt="profile"></button>
+          <div class="mobile-hidden">
+        <button class="service-header__button " id="call"><img src="./img/call.svg" alt="call"></button>
+        <button class="service-header__button " id="send"><img src="./img/chat.svg" alt="chat"></button>
+        <button class="service-header__button "><img src="./img/profile.svg" alt="profile"></button>
+          </div>
         <button class="service-header__button repaiir service-header__button_desktop"><span class="mobile-hidden tablet-hidden repaiir service-header__button_label">Оставить заявку</span><img src="./img/repair.svg" alt="repair"></button>
         <button class="service-header__button statuus service-header__button_desktop"><span class="mobile-hidden tablet-hidden statuus service-header__button_label">Статус ремонта</span><img src="./img/checkstatus.svg" alt="checkstatus"></button>
         </div>
@@ -306,7 +308,7 @@
       </p>
     </section>
     <section class="send">
-      <button id="send-close"><img src="./img/cross.svg" alt="close" class="send-close__image"></button>
+      <button id="send-close"><img src="./img/close.svg" alt="close" class="send-close__image"></button>
       <h3 class="send__title">Обратная связь</h3>
       <form class="form">
         <input class="form__input" type="text" placeholder="Имя">
@@ -318,7 +320,7 @@
       </form>
     </section>
     <section class="call">
-      <button id="call-close"><img src="./img/cross.svg" alt="close"></button>
+      <button id="call-close"><img src="./img/close.svg" alt="close"></button>
       <h3 class="call__title">Заказать звонок</h3>
       <form class="form">
         <input class="form__input" type="text" placeholder="Телефон">
