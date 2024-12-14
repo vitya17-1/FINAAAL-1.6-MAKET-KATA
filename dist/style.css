@@ -1086,7 +1086,7 @@ body {
   .tablet-hidden {
     display: none; }
 
-  service-main__nav {
+  .service-main__nav {
     display: flex;
     margin: 0px;
     align-items: center;
