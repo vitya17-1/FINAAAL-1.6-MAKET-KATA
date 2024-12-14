@@ -1023,7 +1023,7 @@ body {
   margin-left: 5%;
   margin-right: 8px;
   display: inline-block;
-  background-image: url(".img/show-more.svg");
+  background-image: url("./img/show-more.svg");
   height: 24px;
   width: 24px;
   transition: 1s; }
