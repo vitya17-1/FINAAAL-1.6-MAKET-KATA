@@ -234,6 +234,13 @@ body {
   .tablet-hidden {
     display: none;
   }
+  .service-main__nav {
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
   .mobile-hidden {
     position: relative;
     top: 25%;
@@ -299,7 +306,7 @@ body {
   }
   .service-main__nav {
     display: flex;
-    margin: 0;
+    margin: 22px;
     align-items: center;
     overflow-x: scroll;
     white-space: nowrap;
