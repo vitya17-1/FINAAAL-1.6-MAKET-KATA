@@ -245,7 +245,7 @@ body {
     height: 32px;
     position: absolute;
     right: -5px;
-    top: 5px;
+    top: 6px;
   }
 }
 @media (min-width: 768px) {
@@ -292,15 +292,6 @@ body {
     top: 30px;
     right: 120px;
   }
-  // .service-header__right::before {
-  //   content: '';
-  //   background: #eaeaea;
-  //   width: 2px;
-  //   height: 32px;
-  //   position: relative;
-  //   left: 156px;
-  //   top: 30px;
-  // }
 
   .service-header__right {
     flex: 1;
